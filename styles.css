@@ -1,0 +1,247 @@
+body {
+    
+    margin: 0px auto;
+    max-width: 1000px;
+    background-color: #EFECEC;
+    min-width: 1000px;
+    font-family: open sans;
+    color: #1C1A1AC0;
+}
+
+
+.nav_img {
+    width: 90px;
+}
+
+ul {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #EFECEC;
+    margin-top: 10px;
+}
+
+li , li a , li a:visited {
+    margin-top: 35px;
+    list-style: none;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C1A1AC0;
+}
+
+li a:hover {
+    
+    text-decoration: underline;
+    color: #7A1600;
+}
+
+header {
+    
+    background-image: url(images/banner.jpg);
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.text_box {
+    
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.text_box h1 {
+    
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.text_box a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #7A1600;
+    background-color: white;
+    margin: 0px 60px 0px 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text_box a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7A1600;
+    margin: 0px 60px 0px 60px;
+    border-radius: 10px;
+}
+
+
+.feeling_hungry_section {
+    
+    margin-top: -19px;
+    text-align: center;
+    background-color: #e3dcd2;
+    padding: 35px 60px 45px 60px;
+
+}
+
+.feeling_hungry_section > p , .the_team > p{
+    
+    font-weight: 300;
+    padding: 0px 160px 0px 160px;     
+}
+
+.feeling_hungry_section > h2 , .the_team > h2{
+    
+    font-weight: 500;
+       
+}
+
+
+.grid_container {
+    
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 45px 0px 45px;
+}
+
+.grid_images {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_1 {
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.img_2 {
+    
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.img_3 {
+    
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.img_4 {
+    
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.grid_text {
+    
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: white;
+    padding: 20px 15px 0px 15px;
+    font-weight: 300;
+}
+
+.img_5 {
+    
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.the_team {
+    
+    text-align: center;
+}
+
+.the_team a , footer a {
+    
+    text-decoration: none;
+    color: #7A1600;
+}
+
+.the_team a:hover , footer a:hover {
+    
+    color: white;
+    text-decoration: none;
+    background-color: #7A1600;
+}
+
+.the_team h3 {
+    
+    font-family: allura;
+    font-size: 30px;
+    color: #7A1600;
+}
+
+figure > img {
+    
+    width: 150px;
+    border-radius: 80px;
+} 
+
+.container {
+    
+    display: flex;
+}
+
+.master {
+    
+    margin-right: 20px;
+}
+
+
+.sprite {
+    background-image:url(images/css_sprites.png);
+    height: 35px;
+    width: 36px;
+    background-repeat: no-repeat;
+    background-size: 65px;
+    display: inline-block;
+    
+}
+
+.sprite.s1 {
+    background-position: 0px 0px;
+}
+
+.sprite.s2 {
+    
+    background-position: 0px -30px;
+}
+
+.sprite.s3 {
+    
+    background-position: -32px 3px;
+}
+
+.footer_container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    
+    background-color: white;
+    padding: 20px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+   
+
+
+
+
+
+
